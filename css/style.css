@@ -1,0 +1,652 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER STARTS */
+#mynavigation {
+  width: 100%;
+  border-radius: 0;
+  background: #000;
+  padding: 25px 0;
+}
+
+#mynavigation .navbar-brand {
+  margin-top: -15px;
+}
+
+#mynavigation ul li a {
+  font-size: 15px;
+}
+
+#mynavigation .active a {
+  background: 0;
+}
+
+#mynavigation .nav-button {
+  background: 0;
+  border-radius: 5px;
+  border-color: gray;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+#mynavigation .nav-button a {
+  color: gray;
+}
+
+#mynavigation .nav-button:hover {
+  color: #fff;
+  border-color: #ccc;
+}
+
+#mynavigation .sidebar {
+  background: rgba(0, 0, 0, 0.719);
+}
+
+#mynavigation .sidebar a {
+  color: #ccc;
+}
+
+#mynavigation .sidebar a:hover {
+  background: rgba(77, 77, 77, 0.561);
+}
+
+header {
+  width: 100%;
+  background-image: url(../images/bg_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+}
+
+header .banner-wrapper {
+  /*   background-color: darkkhaki; */
+  padding: 50px 0;
+  margin-top: 80px;
+}
+
+header .banner-wrapper h1 {
+  font-size: 45px;
+}
+
+header .banner-wrapper p {
+  color: #ccc;
+  font-size: 15px;
+}
+
+header .banner-wrapper p span {
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+
+header .banner-wrapper .banner-button {
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+header .banner-wrapper .banner-button .button-one {
+  background: 0;
+  color: #ccc;
+  border: 2px solid #ccc;
+  font-size: 15px;
+  padding: 10px 60px;
+  border-radius: 3px;
+}
+
+header .banner-wrapper .banner-button .button-one:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+header .banner-wrapper .banner-button .button-two {
+  color: #ccc;
+  border: 2px solid #ccc;
+  font-size: 15px;
+  padding: 10px 60px;
+  border-radius: 3px;
+  background-color: #ff9d00;
+  border: 0;
+  color: #fff;
+  padding: 12px 60px;
+}
+
+header .banner-wrapper .banner-button .button-two:hover {
+  background-color: #e08c05;
+}
+
+/* HEADER ENDS */
+/* BIG-WRAPPER STARTS */
+.big-wrapper {
+  width: 100%;
+  text-align: center;
+  /* padding: 1% 0; */
+  /*     background-color: #ccc; */
+}
+
+.big-wrapper .big-wrapper-head {
+  /*  background-color: aquamarine; */
+  padding: 70px 0;
+}
+
+.big-wrapper .big-wrapper-head h2 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.big-wrapper .big-wrapper-head p {
+  color: gray;
+  margin-top: 10px;
+}
+
+.big-wrapper .color-box-wrapper {
+  width: 100%;
+  background-color: #f7f5f4;
+  margin: 3% 0;
+  padding: 5% 0;
+}
+
+.big-wrapper .color-box-wrapper h3 {
+  margin-bottom: 5%;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.big-wrapper .color-box-wrapper .color-box {
+  /*  background-color: #000; */
+  margin-top: 2%;
+}
+
+.big-wrapper .color-box-wrapper .color-box i {
+  font-size: 50px;
+  margin: 1% 0;
+  color: #382526;
+}
+
+.big-wrapper .color-box-wrapper .color-box h4 {
+  margin: 20px 0;
+  /* color: aqua; */
+  color: #382526;
+  font-weight: 500;
+}
+
+.big-wrapper .color-box-wrapper .color-box p {
+  margin-top: 20px;
+}
+
+/* BIG-WRAPPER ENDS */
+/* MAIN-WRAPPER STARTS  */
+.main-wrapper {
+  width: 100%;
+  /*  background-color: burlywood; */
+}
+
+.main-wrapper .main-box h1 {
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+.main-wrapper .main-box p span {
+  color: royalblue;
+}
+
+.main-wrapper .main-color-box {
+  font-size: 18px;
+  background-color: #f7f5f4;
+  padding: 4%;
+  margin-top: 4%;
+  /*  margin-top: 2%; */
+}
+
+.main-wrapper .main-color-box .color-button-box {
+  width: 97%;
+  text-align: right;
+}
+
+.main-wrapper .main-color-box .color-button-box button {
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #ff9d00;
+  margin-top: 15px;
+}
+
+.main-wrapper .main-color-box .color-button-box button:hover {
+  color: #ccc;
+}
+
+/* MAIN-WRAPPER ENDS */
+/* ABOUT STARTS */
+.about-wrapper {
+  width: 100%;
+  /* CONTACT STARTS */
+  /* CONTACT ENDS */
+  /* SIGNIN-BOX STARST */
+  /* SIGNIN-BOX ENDS */
+}
+
+.about-wrapper .top-links {
+  letter-spacing: 1px;
+}
+
+.about-wrapper .top-links h5 {
+  font-size: 15px;
+}
+
+.about-wrapper .main-about-box {
+  /* background-color: rgba(100, 148, 237, 0.555); */
+  margin-top: 2%;
+}
+
+.about-wrapper .main-about-box h2 {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.about-wrapper .main-about-box .link-text-box {
+  /*    color: blueviolet; */
+  /*  background-color: bisque; */
+  margin-top: 4%;
+  line-height: 20px;
+}
+
+.about-wrapper .main-about-box form {
+  width: 100%;
+  /*   input{
+                width: 100%;
+            } */
+}
+
+.about-wrapper .myContactform {
+  margin: 5% 0;
+}
+
+.about-wrapper .myContactcheckbox {
+  color: #5a5959;
+}
+
+.about-wrapper .myContactbutton {
+  background-color: #f88f0f;
+  font-size: 15px;
+  padding: 2% 10%;
+  border: 0;
+}
+
+.about-wrapper .myContactbutton:hover {
+  background-color: #ff9b22;
+}
+
+.about-wrapper .signInbox {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.about-wrapper .signInbox label {
+  margin-top: 15px;
+  color: gray;
+}
+
+.about-wrapper .signInbox .sign-head {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-wrapper .signInbox .sign-head span {
+  color: royalblue;
+}
+
+.about-wrapper .signInbox .sign-head p {
+  color: gray;
+}
+
+.about-wrapper .signInbox .sign-button-box {
+  margin-top: 20px;
+}
+
+.about-wrapper .signInbox .sign-button-box .sign-button {
+  text-align: right;
+}
+
+.about-wrapper .signInbox .sign-button-box .sign-button button {
+  padding: 7px 35px;
+  font-size: 15px;
+}
+
+.about-wrapper .signInbox .sign-button-box a {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* ABOUT ENDS */
+/* SIDEBAR-WRAPPER STARTS */
+.sidebar-wrapper .top-links {
+  margin-left: 15px;
+}
+
+.sidebar-wrapper .sidebar-box-1 {
+  margin-top: 20px;
+}
+
+.sidebar-wrapper .sidebar-image-box {
+  margin-top: 20px;
+}
+
+.sidebar-wrapper .sidebar-image-box p {
+  margin-top: 20px;
+}
+
+.sidebar-wrapper .sidebar-pera-box {
+  margin-bottom: 25px;
+}
+
+.sidebar-wrapper .sidebar-italic-box {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: bold;
+  color: #949191;
+  border-left: 6px solid #ebe7e7;
+  padding: 2%;
+}
+
+/* SIDEBAR-WRAPPER ENDS */
+/* FOOTER STARTS */
+footer {
+  width: 100%;
+  background: #232323;
+  color: #ccc;
+  margin-top: 5%;
+  padding: 3%;
+}
+
+footer h4 {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer h6 {
+  color: gray;
+  line-height: 20px;
+}
+
+footer .social-icon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+/* FOOTER STARTS */
+.copyright-info {
+  background-color: #191919;
+  padding: 2% 0;
+}
+
+.copyright-info ul li {
+  color: gray;
+  text-decoration: none;
+  float: none;
+  display: inline;
+}
+
+.copyright-info li a,
+.copyright-info p {
+  color: #ccc;
+}
+
+/* MEDIA QUERY STARTS FOR RESPONSIVE */
+@media only screen and (max-width: 800px) {
+  header .banner-wrapper h1 {
+    font-size: 42px;
+  }
+  .sign-wrapper .signInbox {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  header .banner-wrapper {
+    margin-top: auto;
+  }
+  header .banner-wrapper h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+  header .banner-wrapper .banner-button .button-two {
+    margin-left: 20px;
+    padding: 12px 45px;
+  }
+  .big-wrapper .big-wrapper-head {
+    padding: 50px 0;
+  }
+  .big-wrapper .big-wrapper-head h2 {
+    margin-bottom: 20px;
+  }
+  .big-wrapper .color-box-wrapper h3 {
+    font-size: 30px;
+  }
+  .big-wrapper .color-box {
+    margin: 3% 0;
+    padding: 2%;
+    background-color: #ccc;
+  }
+  .main-wrapper .main-box .main-text-box {
+    /* background-color: #dbdbdb; */
+    margin: 10px 0;
+  }
+  .main-wrapper .main-color-box {
+    font-size: 16px;
+  }
+  .main-wrapper .main-color-box .color-button-box button {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 16px;
+  }
+  .about-wrapper .main-about-box .left-about-box .first-left-about-pera {
+    margin-top: 15px;
+  }
+  .about-wrapper .main-about-box .left-about-box .second-left-about-pera {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .about-wrapper .main-about-box .left-about-box .left-about-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .sidebar-wrapper .sidebar-box-1 {
+    margin: 20px 0;
+  }
+  .sidebar-wrapper .sidebar-image-box {
+    margin-top: 30px;
+  }
+  .sidebar-wrapper .sidebar-image-box p {
+    margin-top: 20px;
+  }
+  .sidebar-wrapper .sidebar-pera-box {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .sidebar-wrapper footer {
+    margin-top: 2%;
+  }
+  .contact-wrapper .myContactform .input-1 {
+    margin-top: 20px;
+  }
+  .sign-wrapper .signInbox br {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  header .banner-wrapper h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  header .banner-wrapper .banner-button .button-one {
+    padding: 7px 40px;
+  }
+  header .banner-wrapper .banner-button .button-two {
+    padding: 9px 30px;
+  }
+  .big-wrapper .big-wrapper-head h2 {
+    font-size: 25px;
+  }
+  .big-wrapper .big-wrapper-head p br {
+    display: none;
+  }
+  .big-wrapper .color-box-wrapper h3 {
+    font-size: 28px;
+  }
+  .big-wrapper .color-box-wrapper .color-box i {
+    font-size: 45px;
+  }
+  .main-wrapper .main-box h1 {
+    font-size: 30px;
+    margin: 35px 0 20px 0;
+  }
+  .main-wrapper .main-box .main-text-box {
+    margin: 5px 0;
+  }
+  .main-wrapper .main-box .main-text-box h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  header .banner-wrapper h1 {
+    font-size: 27px;
+    margin-bottom: 30px;
+  }
+  header .banner-wrapper p {
+    font-size: 14px;
+  }
+  header .banner-wrapper .banner-button .button-one {
+    padding: 5px 30px;
+  }
+  header .banner-wrapper .banner-button .button-two {
+    padding: 7px 22px;
+  }
+  .big-wrapper .big-wrapper-head {
+    padding: 35px 0;
+  }
+  .big-wrapper .big-wrapper-head h2 {
+    font-size: 22px;
+  }
+  .main-wrapper .main-box h1 {
+    font-size: 28px;
+  }
+  .main-wrapper .main-box .main-text-box h3 {
+    font-size: 20px;
+  }
+  footer h4 {
+    margin-bottom: 5px;
+  }
+  footer .footer-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer .footer-box-two h4 {
+    margin-bottom: 10px;
+  }
+  .copyright-info {
+    padding: 4% 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #mynavigation .nav-button {
+    padding: 7px 15px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  header .banner-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header .banner-wrapper h1 {
+    line-height: 33px;
+  }
+  .big-wrapper .big-wrapper-head h2 {
+    line-height: 27px;
+  }
+  .big-wrapper .color-box-wrapper h3 {
+    font-size: 24px;
+  }
+  .big-wrapper .color-box-wrapper .color-box i {
+    font-size: 38px;
+  }
+  .big-wrapper .color-box-wrapper .color-box h4 {
+    margin: 10px 0;
+  }
+  .main-wrapper .main-box h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .main-wrapper .main-box .main-text-box h3 {
+    font-size: 18px;
+  }
+  .main-wrapper .main-color-box {
+    padding: 6%;
+  }
+  .main-wrapper .main-color-box .color-button-box button {
+    padding: 7px 20px 7px 20px;
+    margin-top: 8px;
+  }
+  .about-wrapper .top-links h5 {
+    font-size: 14px;
+  }
+  .about-wrapper .main-about-box h2 {
+    font-size: 25px;
+  }
+  .about-wrapper .main-about-box hr {
+    margin: 20px 0 0 0;
+  }
+  .about-wrapper h3 {
+    font-size: 21px;
+  }
+  .sidebar-wrapper .sidebar-pera-box h2 {
+    font-size: 25px;
+  }
+  .sidebar-wrapper .sidebar-pera-box h3 {
+    line-height: 24px;
+  }
+  .sidebar-wrapper .sidebar-italic-box {
+    font-size: 16px;
+  }
+  .contact-wrapper hr {
+    margin: 20px 0 20px 0 !important;
+  }
+  .contact-wrapper .myContactbutton {
+    margin-top: 8px;
+  }
+  .sign-wrapper .signInbox {
+    width: 90%;
+  }
+  .sign-wrapper .signInbox h2 {
+    margin-bottom: 20px;
+  }
+  .sign-wrapper .signInbox .sign-button-box a {
+    margin-top: 10px;
+  }
+  .sign-wrapper .signInbox .sign-button-box .sign-button button {
+    padding: 5px 30px;
+    margin-top: -5px;
+  }
+}
+
+/* MEDIA QUERY ENDS*/
+/*# sourceMappingURL=style.css.map */
